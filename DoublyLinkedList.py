@@ -63,7 +63,7 @@ def reverseList(ll):
         currentnode=currentnode.previous
     return newlist
 
-#Output:
+#TEST
 l1=LinkList()
 l1.append(1)
 l1.append(2)
@@ -72,8 +72,16 @@ l2=LinkList()
 l2.append(2)
 l2.append(4)
 l2.append(6)
+print("Merge")
 l3=mergeList(l1,l2)
 l3.printList()
 print("Reverse:")
 l4=reverseList(l3)
 l4.printList()
+
+
+#Output:
+#Merge
+#1 ->2 ->2 ->4 ->3 ->6 ->None
+#Reverse:
+#6 ->3 ->4 ->2 ->2 ->1 ->None
