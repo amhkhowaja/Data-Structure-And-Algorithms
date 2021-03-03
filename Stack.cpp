@@ -1,4 +1,4 @@
-//Simple functionality of Stack .ie, push,pop, dump,popandremove
+//Simple functionality of Stack .ie, push,pop, dump, popandremove
 #include<iostream>
 using namespace std;
 #define MAX 5
