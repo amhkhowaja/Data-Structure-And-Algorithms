@@ -32,7 +32,7 @@ class CircularQueue:
         return self.tail
     def display(self):
         print("{")
-        for i in self.qlist:
+        for i in self.qlist: 
             if i is None :
                 print("[NONE], ")
                 continue
