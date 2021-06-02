@@ -5,6 +5,7 @@ void swap(int *a , int *b){
     *a=*b;
     *b=temp;
 }
+
 int * BubbleSort (int arr[],int  n){
     //[5,4,2,6,1,3,6,8,1]
     int x;
